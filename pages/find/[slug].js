@@ -15,7 +15,7 @@ const Slug = () => {
         .then((data) => setItems(data));
     }
   }, [router]);
-  console.log(items);
+
 
   
   return(

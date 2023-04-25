@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-const register = () => {
+const Register = () => {
     const [text,setText] = useState({
         email:"",
         username:"",
@@ -54,4 +54,4 @@ const register = () => {
   )
 }
 
-export default register
+export default Register

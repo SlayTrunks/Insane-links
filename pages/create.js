@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Loading from './loading'
 
 
-const create = () => {
+const Create = () => {
     const [text,setText] = useState({
         username:"",
         facebook:"",
@@ -107,4 +107,4 @@ const create = () => {
   )
 }
 
-export default create
+export default Create

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Navbar from './navbar'
 
 
-const login = () => {
+const Login = () => {
     const [text,setText] = useState({
         
         username:"",
@@ -52,4 +52,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

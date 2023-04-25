@@ -29,7 +29,7 @@ function Navbar() {
                 <Link href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
                 <Link href="/about" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</Link>
                 <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>
-                <input  type="text" name="text" className="in " onKeyDown={handlepress} placeholder="Search username" onChange={handleChange} value={search}/>
+                <input  type="text" name="text" className="in " onKeyDown={handlepress} placeholder="Search username " onChange={handleChange} value={search}/>
  
               </div>
               
