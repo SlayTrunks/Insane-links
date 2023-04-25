@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Loading from '../loading'
 import Navbar from '../navbar';
+import Image from 'next/image';
 
 const Slug = () => {
   const router = useRouter();
@@ -25,7 +26,8 @@ const Slug = () => {
     items ?  <div className='h-[88vh] w-[100vw] bg-gray-300   overflow-hidden flex items-center justify-center'>
       
     <div className='   w-[50vw] flex flex-col gap-6 justify-center'>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='h-20 w-16 mx-auto' alt="profile" />
+    <Image src='/user.png' width={80} height={80} className='mx-auto' alt="profile" />
+
     <h1 className='text-black text-4xl font-bold capitalize mx-auto'>{items.username}</h1>
         {
           items.facebook && <a href={items.facebook} target='_blank' className='text-4xl text-[#f5f6f7] bg-gradient-to-r rounded-xl font-sans  bg-[#4267b2] text-center cursor-pointer  '>Facebook</a> 

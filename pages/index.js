@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Loading from './loading';
 import Navbar from './navbar';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -37,8 +38,8 @@ export default function Home() {
               Links for your socials
             </h1>
             <p className="mb-8 leading-relaxed">
-              Welcome to Insane Link! Easily showcase all your important links
-              in one place, whether it's your social media profiles, business
+              Welcome to Insane Link Easily showcase all your important links
+              in one place, whether its your social media profiles, business
               website, or personal blog. Share your Insane Link with your
               followers and make it easy for them to connect with you.
             </p>
@@ -52,11 +53,13 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded-xl"
-              alt="hero"
-              src="https://img.freepik.com/premium-photo/3d-glossy-social-media-logos-with-dark-background-side-side-position_519809-4.jpg "
-            />
+          <Image
+  className="object-cover object-center rounded-xl"
+  alt="hero"
+  src='/logos.avif'
+  width={800}
+  height={600}
+/>
           </div>
         </div>
       </section>
